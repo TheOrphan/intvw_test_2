@@ -1,3 +1,34 @@
-h1, p {
-  font-family: Lato;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html,
+body {
+  height: 100%;
+  font-family: Roboto, Arial, sans-serif;
+  background: #35bffc; /* fallback for old browsers */
+  background: linear-gradient(to top, #ffffff, #e2f6ff);
+}
+body {
+  margin: 0;
+}
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  width: auto;
+  border: solid 1px #d8d8d8;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #35befc;
 }
